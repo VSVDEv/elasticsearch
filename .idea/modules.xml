@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/elasticsearch.iml" filepath="$PROJECT_DIR$/elasticsearch.iml" />
+      <module fileurl="file://$PROJECT_DIR$/es_link_raiting/es_link_raiting.iml" filepath="$PROJECT_DIR$/es_link_raiting/es_link_raiting.iml" />
+      <module fileurl="file://$PROJECT_DIR$/es_spring_data/es_spring_data.iml" filepath="$PROJECT_DIR$/es_spring_data/es_spring_data.iml" />
+      <module fileurl="file://$PROJECT_DIR$/examples/examples.iml" filepath="$PROJECT_DIR$/examples/examples.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springrest/springrest.iml" filepath="$PROJECT_DIR$/springrest/springrest.iml" />
+    </modules>
+  </component>
+</project>

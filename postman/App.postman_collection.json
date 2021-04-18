@@ -1,0 +1,109 @@
+{
+	"info": {
+		"_postman_id": "15e5e6a1-4e9e-4f23-85bb-ef4062dbfd5f",
+		"name": "App",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "http://localhost:8080/api/ping",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/ping",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"ping"
+					]
+				},
+				"description": "test rcontrooler"
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/api/articles?title=Car&text=information about cars",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/articles?title=Sport&text=information about sport gym",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"articles"
+					],
+					"query": [
+						{
+							"key": "title",
+							"value": "Sport"
+						},
+						{
+							"key": "text",
+							"value": "information about sport gym"
+						}
+					]
+				},
+				"description": "/articles"
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/api/search?query=information",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/search?query=information",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"search"
+					],
+					"query": [
+						{
+							"key": "query",
+							"value": "information"
+						}
+					]
+				},
+				"description": "/search"
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/api/count",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/count",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"count"
+					]
+				},
+				"description": "count"
+			},
+			"response": []
+		}
+	]
+}
